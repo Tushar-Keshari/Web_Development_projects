@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share my profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--circle 1-->
+    <div class="circle1"></div>
+    <!--circle 2-->
+    <div class="circle2"></div>
+    <div id="wrapper">
+        
+        <!--card-->
+        <div class="card">
+            <!--image-->
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <!--heading-->
+            <div class="heading">Tushar Keshari</div>
+            <div class="sub-heading">  2nd Year, SVNIT  </div>
+            <!--buttons-->
+            <div class="btn">
+                <!--Button 1-->
+                <button class="btn1" onclick="openModal()">Share My Profile</button>
+                <!--button 2-->
+                <button class="btn2">Follow Me</button>
+            </div>
+        </div>
+    </div>
+
+    <!--modal -->
+    <div class="modal">
+        <div class="modal-header">
+            <h1 class="heading ">Share my Profile</h1>
+            <div onclick="closeModal()" 
+            style="font-size: x-large; user-select: none; cursor: pointer; ">X</div>
+        </div>
+
+        <div >
+            <h3 style="margin-bottom: 2rem;">Share this via</h3>
+            <div class="icons">
+                <a href="#" >
+                    <img src="./icons8-facebook-circled.gif" alt="">
+                </a>
+                <a href="#" >
+                    <img src="./icons8-facebook-circled.gif" alt="">
+                </a>
+                <a href="#" >
+                    <img src="./icons8-facebook-circled.gif" alt="">
+                </a>
+                <a href="#" >
+                    <img src="./icons8-facebook-circled.gif" alt="">
+                </a>
+                <a href="#" >
+                    <img src="./icons8-facebook-circled.gif" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--overlays-->
+    <div class="overlays" onclick="closeModal()"></div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
